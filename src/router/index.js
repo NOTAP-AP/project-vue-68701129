@@ -19,6 +19,24 @@ const routes = [
     name: 'contact',
   
     component: () => import( '../views/contact.vue')
+    },
+     {
+    path: '/product_api',
+    name: 'product_api',
+  
+    component: () => import( '../views/Product_api.vue')
+    },
+     {
+    path: '/product_list',
+    name: 'product_list',
+  
+    component: () => import( '../views/Product_list.vue')
+    },
+    {
+    path: '/Gold',
+    name: 'Gold',
+  
+    component: () => import( '../views/Gold.vue')
     }
 ]
 
