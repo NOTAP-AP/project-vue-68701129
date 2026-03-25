@@ -37,7 +37,27 @@ const routes = [
     name: 'Gold',
   
     component: () => import( '../views/Gold.vue')
+    },
+    {
+    path: '/Showcustomer',
+    name: 'Showcustomer',
+  
+    component: () => import( '../views/show_customer.vue')
+    },
+    {
+    path: '/Showemployees',
+    name: 'Showemployees',
+  
+    component: () => import( '../views/show_employees')
+    },
+     {
+    path: '/Register',
+    name: 'Resgister',
+  
+    component: () => import( '../views/Register.vue')
     }
+    
+    
 ]
 
 const router = createRouter({
