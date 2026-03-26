@@ -27,7 +27,7 @@
               <li><a class="dropdown-item" href="Showcustomer">Show customer</a></li>
               <li><a class="dropdown-item" href="ShowEmployees">Show Employees</a></li>
               <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Logout</a></li>
+              <li><a class="dropdown-item" href="Addemployees">Addemployees</a></li>
             </ul>
           </li>
            <li class="nav-item dropdown">
